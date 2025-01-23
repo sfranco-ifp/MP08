@@ -1,0 +1,107 @@
+
+.body{
+    height: 7000px;
+    background: #222;
+    margin: 0px;
+    
+
+}
+
+.navegacio img{
+    display: inline-block;
+    left: 20px 5px;
+}
+
+.primera{
+    display: inline-block;
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    height: 84px;
+    overflow: hidden;
+    color: white;
+}
+
+.esquerra{
+    float: left;
+}
+.dreta{
+    font-size: 11px;
+    display: inline-block;
+    
+}
+
+.Dinteressants img{
+    width: 175px;
+    height: 260px;
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+
+.Dinteressants img:hover{
+    opacity: 50%;
+}
+
+.navegacio{
+    height: 50px;
+    background: black;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+h2{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.any{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.Dinteressants{
+    background: transparent;
+    background-size: auto;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.Dvistos{
+    background: transparent;
+    background-size: auto;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Ppendents{
+
+}
+
+.Pvistes{
+
+}
+
+.Sseguint{
+
+}
+
+.Svistes{
+
+}
+
+.abajo{
+    
+}

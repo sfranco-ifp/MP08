@@ -1,0 +1,613 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagina{
+    position: relative;
+    height: 100%;
+}
+
+.p1{
+    background-image: url(../img/nenufar.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+            .rain__drop {
+                -webkit-animation-delay: calc(var(--d) * 1s);
+                        animation-delay: calc(var(--d) * 1s);
+                -webkit-animation-duration: calc(var(--a) * 1s);
+                        animation-duration: calc(var(--a) * 1s);
+                -webkit-animation-iteration-count: infinite;
+                        animation-iteration-count: infinite;
+                -webkit-animation-name: drop;
+                        animation-name: drop;
+                -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                height: 30px;
+                left: calc(var(--x) * 1%);
+                position: absolute;
+                top: calc((var(--y) + 50) * -1px);
+                }
+                .rain__drop path {
+                fill: #a1c6cc;
+                opacity: var(--o);
+                -webkit-transform: scaleY(calc(var(--s) * 1.5));
+                        transform: scaleY(calc(var(--s) * 1.5));
+                }
+                @-webkit-keyframes drop {
+                90% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                    -webkit-transform: translateY(100vh);
+                            transform: translateY(100vh);
+                }
+                }
+                @keyframes drop {
+                90% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                    -webkit-transform: translateY(100vh);
+                            transform: translateY(100vh);
+                }
+                }
+
+.p2{
+    background: white;
+}
+
+.p3{
+    background: rgb(171, 218, 179);
+}
+
+nav{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(41, 79, 51, 0.47);
+    z-index: 100;
+}
+
+nav li{
+    float: left;
+    margin: 0 20px;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+
+}
+
+        li:hover{
+            
+        }
+
+h1{
+
+    text-align:center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 250px;
+    color: white;
+
+    font-family: "Fleur De Leah", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+
+.cont1{
+    width: 900px;
+    text-align:center;
+    overflow:hidden;
+    margin: 50px auto;
+}
+
+
+.p2 li{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    box-shadow: inset 0px 0px 10px rgb(171, 218, 179);
+    line-height: 450px;
+    background-image:url();
+    background-size: 200px;
+    margin: 50px;
+    font-size: 25px;
+    color: rgb(79, 150, 98);
+    
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+
+.p2 .cero{
+    background-image:url(../img/nii.png);
+    background-size: 200px;
+}
+
+    .cero:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .cero:before{
+        content: "Inici";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .cero:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+    
+
+.p2 .uno{
+    background-image:url(../img/nc.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: s;
+}
+
+    .uno:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .uno:before{
+        content: "Calendari";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .uno:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+.p2 .tres{
+    background-image:url(../img/nfed.png);
+    
+}
+    .tres:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .tres:before{
+        content: "Feedly";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .tres:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+.p2 .cuatro{
+    background-image:url(../img/n4.png);
+}
+    .cuatro:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .cuatro:before{
+        content: "Scacs";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .cuatro:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+.p2 .cinco{
+    background-image:url(../img/nw.png);
+}
+    .cinco:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .cinco:before{
+        content: "Watchmen";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .cinco:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+.p2 .seis{
+    background-image:url(../img/nf.png);
+    background-size: 200px;
+ 
+}
+
+    .seis:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .seis:before{
+        content: "Float";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .seis:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+.p2 .siete{
+    background-image:url(../img/ne.png);
+}
+    .siete:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .siete:before{
+        content: "Ifpagram";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .siete:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+.p2 .ocho{
+    background-image:url(../img/npl.png);
+}
+    .ocho:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .ocho:before{
+        content: "Piloteta";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .ocho:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+.p2 .nueve{
+    background-image:url(../img/ni.png);
+}
+    .nueve:hover{
+        animation: inici 3s infinite linear;
+    }
+
+    .nueve:before{
+        content: "Photoshop";
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .nueve:hover:before{
+        animation: antiinici 2s infinite linear;
+    }
+
+    @keyframes inici{
+        0%{
+            transform: rotate(0deg)
+        }
+
+        100%{
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes antiinici{
+        0%{
+            transform: rotate(360deg)
+        }
+
+        100%{
+            transform: rotate(0deg)
+        }
+    }
+
+
+
+    
+
+.p3{
+    h1{
+        font-size: 100px;
+        margin: 0 auto;
+    }
+    .barrita{
+        height: 75px;
+        background-image: url(../img/senefa.png);
+        margin: 0 auto;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.cont2{
+    width: 900px;
+    text-align:center;
+    position: absolute;
+    display: inline;
+    text-align:center;
+    overflow:hidden;
+    margin: 500px auto;
+}
+
+.p3 h1{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.p3 li{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        text-align: center;
+        float: left;
+        line-height: 450px;
+        background-image:url(../img/mail.png);
+        background-size: 200px;
+        margin: 50px;
+        font-size: 15px;
+
+        font-family: "Dancing Script", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        float: left;
+        display:block;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 120px;
+        color: white
+        
+    }
+
+    .p1{
+        background-size: cover;
+    }
+    .cont1{
+        transform: scale(80%);
+        transform-origin: center;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 100px;
+        color: white
+        
+    }
+
+    .p1{
+        background-size: cover;
+    }
+
+    .cont1{
+        width: 600px;
+        transform: scale(70%);
+        transform-origin: center;
+        position: relative;
+        top: -190px;
+        left: -65px;
+    }
+
+    .p3 h1{
+        font-size: 80px;
+    }
+
+    .p3 .cont2{
+        transform: scale(50%);
+        transform-origin: center;
+        left: -218px;
+    }
+
+}
+
+
+
+
