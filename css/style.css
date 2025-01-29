@@ -115,7 +115,6 @@ h1{
     width: 900px;
     text-align:center;
     overflow:hidden;
-    margin: 50px auto;
 }
 
 
@@ -126,8 +125,8 @@ h1{
     border-radius: 50%;
     text-align: center;
     box-shadow: inset 0px 0px 10px rgb(171, 218, 179);
-    line-height: 450px;
-    margin: 50px;
+    line-height: 300px;
+    margin: 100px;
     font-size: 25px;
     color: rgb(79, 150, 98);
     
@@ -154,8 +153,8 @@ h1{
 
     .cero:before{
         content: "Cara";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -195,8 +194,8 @@ h1{
 
     .uno:before{
         content: "Calendari";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -235,8 +234,8 @@ h1{
 
     .tres:before{
         content: "Feedly";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -274,8 +273,8 @@ h1{
 
     .cuatro:before{
         content: "Scacs";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -312,8 +311,8 @@ h1{
 
     .cinco:before{
         content: "Watchmen";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -353,8 +352,8 @@ h1{
 
     .seis:before{
         content: "Float";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -391,8 +390,8 @@ h1{
 
     .siete:before{
         content: "Ifpagram";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -430,8 +429,8 @@ h1{
 
     .ocho:before{
         content: "Piloteta";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -469,8 +468,8 @@ h1{
 
     .nueve:before{
         content: "Photoshop";
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 
@@ -610,7 +609,6 @@ h1{
     }
 
     .cont1{
-        background: red;
         width: 100%;
         transform: scale(100%);
         transform-origin: 50%;
@@ -621,7 +619,7 @@ h1{
         display: inline-block;
         width: 30vw;
         height: 30vw;
-        margin: 15px;
+        margin: 30px;
     
     }
 
