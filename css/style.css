@@ -509,9 +509,7 @@ h1{
     .barrita{
         height: 75px;
         background-image: url(../img/senefa.png);
-        margin: 0 auto;
-        background-size: auto;
-        background-repeat: no-repeat;
+
     }
 }
 
@@ -537,8 +535,7 @@ h1{
         text-align: center;
         float: left;
         line-height: 450px;
-        background-image:url();
-        background-size: 200px;
+        background-size: 100%;
         margin: 50px;
         font-size: 15px;
 
@@ -556,8 +553,7 @@ h1{
 }
 
 .p3 .insta{
-    background-image:url(../img/instalogo.png);
-    background-size: 200px;
+    background-image:url(../img/instalogo.png);     
     background-repeat: no-repeat;
 }
 
@@ -578,22 +574,41 @@ h1{
         background-size: cover;
     }
     .cont1{
-        width: 600px;
-        transform: scale(70%);
-        transform-origin: center;
+        width: 100%;
+        transform: scale(100%);
+        transform-origin: 50%;
+
+    }
+
+    .p2 li{
+        display: inline-block;
+        width: 30vw;
+        height: 30vw;
+        margin: 30px;
+    
     }
 
     .p3 h1{
         font-size: 80px;
     }
 
-    .p3 .cont2{
-        width: 900px;
-        transform: scale(50%);
-        transform-origin: center;
-        top: -120px;
-        left: -65px;
+    .p3{
+        background-size: cover;
     }
+    .p3 .cont2{
+        width: 100%;
+        transform: scale(100%);
+        transform-origin: 50%;
+
+    }
+
+    .p3 li{
+        display: inline-block;
+        width: 30vw;
+        height: 30vw;
+        margin: 30px;
+
+        }
 
 }
 
@@ -627,15 +642,24 @@ h1{
         font-size: 80px;
     }
 
+    .p3{
+        background-size: cover;
+    }
     .p3 .cont2{
         width: 100%;
-        transform: scale(50%);
-        transform-origin: center;
+        transform: scale(100%);
+        transform-origin: 50%;
 
     }
 
+    .p3 li{
+        display: inline-block;
+        width: 30vw;
+        height: 30vw;
+        margin: 30px;
+
+        }
+
+
+
 }
-
-
-
-
