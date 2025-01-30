@@ -14,6 +14,8 @@ html, body{
     height: 100%;
 }
 
+/*-------------------------------------------------------------------------------*/
+
 .p1{
     background-image: url(../img/nenufar.jpg);
     background-size: 100%;
@@ -123,10 +125,11 @@ h1{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    float: left;
     text-align: center;
     box-shadow: inset 0px 0px 10px rgb(171, 218, 179);
     line-height: 300px;
-    margin: 100px;
+    margin: 50px;
     font-size: 25px;
     color: rgb(79, 150, 98);
     
@@ -520,8 +523,6 @@ h1{
     overflow:hidden;
     margin: 500px auto;
 }
-.cont1{
-}
 
 .p3 h1{
     top: 40%;
@@ -635,6 +636,7 @@ h1{
         width: 30vw;
         height: 30vw;
         margin: 30px;
+        line-height: 250px;
     
     }
 
