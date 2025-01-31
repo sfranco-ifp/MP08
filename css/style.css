@@ -83,7 +83,6 @@ nav{
 }
 
 nav li{
-    float: left;
     margin: 0 20px;
     display: inline-block;
     color: white;
@@ -114,7 +113,6 @@ h1{
 
 
 .cont1{
-    width: 900px;
     text-align:center;
     overflow:hidden;
 }
@@ -519,14 +517,14 @@ h1{
 
 .cont2{
     width: 900px;
-    top: 500px;
+    top: 350px;
     text-align: center;
     font-size: 0;
 
 }
 
 .p3 h1{
-    top: 40%;
+    top: 350px;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -537,6 +535,8 @@ h1{
         background-size: 100%;
         margin: 50px;
         display: inline-block;
+        text-align: center;
+
 
 }
 
@@ -556,6 +556,11 @@ h1{
 
 
 @media screen and (max-width: 1000px){
+    nav{
+        
+        text-align: center;
+    }
+
     h1{
         font-size: 120px;
         color: white
@@ -570,6 +575,12 @@ h1{
         transform: scale(100%);
         transform-origin: 50%;
 
+        text-align: center;
+
+    }
+
+    .p2{
+        height: 120%;
     }
 
     .p2 li{
@@ -590,7 +601,7 @@ h1{
     .p3 .cont2{
         width: 100%;
         transform: scale(100%);
-        transform-origin: 50%;
+        transform-origin: 20%;
 
     }
 
@@ -605,6 +616,11 @@ h1{
 }
 
 @media screen and (max-width: 480px){
+
+    nav{
+        text-align: center;
+    }
+
     h1{
         font-size: 100px;
         color: white
@@ -620,6 +636,10 @@ h1{
         transform: scale(100%);
         transform-origin: 50%;
 
+    }
+
+    .p2{
+        height: 120%;
     }
 
     .p2 li{
@@ -653,4 +673,12 @@ h1{
 
 
 
+}
+
+@media screen and (min-width: 1280px){
+    .cont1{
+        width: 900px;
+        text-align: center;
+    }
+        
 }
