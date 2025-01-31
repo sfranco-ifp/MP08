@@ -71,6 +71,9 @@ html, body{
 .p3{
     background: rgb(171, 218, 179);
 }
+li{
+    list-style: none;
+}
 
 nav{
     position: fixed;
@@ -80,6 +83,7 @@ nav{
     right: 0;
     background: rgba(41, 79, 51, 0.47);
     z-index: 100;
+    
 }
 
 nav li{
@@ -87,6 +91,7 @@ nav li{
     display: inline-block;
     color: white;
     margin-top: 15px;
+    
 
 }
 
@@ -635,11 +640,12 @@ h1{
         width: 100%;
         transform: scale(100%);
         transform-origin: 50%;
+        top: 20vw;
 
     }
 
     .p2{
-        height: 120%;
+        height: 140%;
     }
 
     .p2 li{
