@@ -69,7 +69,11 @@ html, body{
 }
 
 .p3{
-    background: rgb(171, 218, 179);
+    background: rgb(158, 195, 164);
+}
+
+ul{
+    list-style: none;
 }
 
 
@@ -80,64 +84,64 @@ nav{
     left: 0;
     right: 0;
     background: rgba(41, 79, 51, 0.734);
-    z-index: 100;
-    
-}
-
-
-                        
-
-
-
-ul{
-    list-style: none;
+    z-index: 100;  
 }
 
 nav li{
     margin: 0 20px;
-    display: inline-block;
-    float:left;
+    display:inline-block;
     color: white;
     margin-top: 15px;
     letter-spacing: 0;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    position: relative;
+    transition: all 1s;
 
 
 }
 
-
-                nav :hover,
-                nav :active {
-                letter-spacing: 3px;
-                }
-
-                nav :after
-                nav :before {
-                backface-visibility: hidden;
-                border: 2px solid rgba(#fff, 0);
-                bottom: 0px;
+            nav li:after {
+                content:"";
                 display: block;
-                margin: 0 auto;
-                position: relative;
-                transition: all 280ms ease-in-out;
-                width: 0;
-                }
-
-                nav :hover:after
-                nav :before {
-                backface-visibility: hidden;
-                border-color: rgb(255, 255, 255);
-                transition: width 350ms ease-in-out;
-                width: 70%;
-                }
-
-                nav :hover:before {
-                bottom: auto;
-                top: 0;
-                width: 70%;
-                }
+                width: 5rem;
+                height: 0.1rem;
+                background: white;
+                position: absolute;
+                left: 0rem;
+                top: -0.5rem;
+                z-index: -5;
+                transform: scaleX(0%);
+                transform-origin: center;
+                transition: all 1s;
+            }
+            
+            
+            
+            
+            nav li:hover:after {
+                transform: scaleX(100%);
+            }
+            
+            nav li:before{
+                content:"";
+                display: block;
+                width: 5rem;
+                height: 0.1rem;
+                background: white;
+                position: absolute;
+                left: 0rem;
+                z-index: -5;
+                transform: scaleX(0%);
+                transform-origin: center;
+                transition: all 1s;
+                top: 1.5rem;
+            }
+            
+            nav li:hover:before {
+                transform: scaleX(100%);
+            }
 
 h1{
 
@@ -664,10 +668,11 @@ h1{
 }
 
 @media screen and (max-width: 480px){
-
     nav{
-        float:none;
-        margin: 0 auto;
+        text-align: center;
+    }
+    nav li{
+        margin: 1rem 1rem;
         
     }
 
@@ -699,6 +704,7 @@ h1{
         height: 30vw;
         margin: 30px;
         line-height: 200px;
+
     
     }
 
