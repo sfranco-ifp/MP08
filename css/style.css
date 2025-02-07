@@ -690,7 +690,8 @@ h1{
         width: 30vw;
         height: 30vw;
         margin: 30px;
-        line-height: 200px;
+        line-height: 320px;
+        font-size: 1.5rem;
 
     
     }
