@@ -167,6 +167,7 @@ h1{
     width: 900px;
     text-align: center;
     margin: 0 auto;
+    top: 9rem;
 }
 
 
@@ -563,6 +564,7 @@ h1{
         background-image: url(../img/senefa.png);
 
     }
+
 }
 
 
@@ -582,10 +584,11 @@ h1{
 }
 
 .p3 li{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         background-size: 100%;
-        margin: 50px;
+        margin:50px;
+        top:300px;
         display: inline-block;
         text-align: center;
 
@@ -622,19 +625,18 @@ h1{
     .p1{
         background-size: cover;
     }
+
     .cont1{
         width: 100%;
-        transform: scale(100%);
+        transform: scale(50%);
         transform-origin: 50%;
-
-        text-align: center;
-
+        width: 1043,085px;
     }
 
     .p2{
-        height: 120%;
+        height: 150%;
     }
-
+    
     .p2 li{
         display: inline-block;
         width: 30vw;
@@ -650,20 +652,6 @@ h1{
     .p3{
         background-size: cover;
     }
-    .p3 .cont2{
-        width: 100%;
-        transform: scale(100%);
-        transform-origin: 20%;
-
-    }
-
-    .p3 li{
-        float: none;
-        width: 20vw;
-        height: 20vw;
-        margin: 20px;
-        }
-
 
 }
 
@@ -691,7 +679,6 @@ h1{
         transform: scale(100%);
         transform-origin: 50%;
         top: 20vw;
-
     }
 
     .p2{
@@ -715,6 +702,7 @@ h1{
     .p3{
         background-size: cover;
     }
+
     .p3 .cont2{
         width: 100%;
         transform: scale(100%);
