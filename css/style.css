@@ -578,7 +578,7 @@ h1{
 }
 
 .p3 h1{
-    top: 350px;
+    top: 500px;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -588,7 +588,7 @@ h1{
         height: 100px;
         background-size: 100%;
         margin:50px;
-        top:300px;
+        top:150px;
         display: inline-block;
         text-align: center;
 
@@ -629,7 +629,7 @@ h1{
     .cont1{
         width: 100%;
         transform: scale(50%);
-        transform-origin: 50%;
+        transform-origin: 60%;
         width: 1043,085px;
     }
 
@@ -643,14 +643,6 @@ h1{
         height: 30vw;
         margin: 30px;
     
-    }
-
-    .p3 h1{
-        font-size: 80px;
-    }
-
-    .p3{
-        background-size: cover;
     }
 
 }
@@ -678,7 +670,8 @@ h1{
         width: 100%;
         transform: scale(100%);
         transform-origin: 50%;
-        top: 20vw;
+        top: 6vw;
+        margin: 20px;
     }
 
     .p2{
