@@ -79,7 +79,7 @@ ul{
 
 nav{
     position: fixed;
-    height: 50px;
+    height: 3.125rem;
     top: 0;
     left: 0;
     right: 0;
@@ -88,10 +88,10 @@ nav{
 }
 
 nav li{
-    margin: 0 20px;
+    margin: 0 1.25rem;
     display:inline-block;
     color: white;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     letter-spacing: 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 250px;
+    font-size: 15.625rem;
     color: white;
 
     font-family: "Fleur De Leah", serif;
@@ -164,7 +164,7 @@ h1{
 .cont1{
     text-align:center;
     overflow:hidden;
-    width: 900px;
+    width: 56.25rem;
     text-align: center;
     margin: 0 auto;
     top: 9rem;
@@ -173,14 +173,14 @@ h1{
 
 .p2 li{
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
     float: left;
     text-align: center;
     box-shadow: inset 0px 0px 10px rgb(171, 218, 179);
-    line-height: 360px;
-    margin: 50px;
+    line-height: 22.5rem;
+    margin: 3.125rem;
     font-size: 25px;
     color: rgb(190, 107, 119);
     
@@ -188,7 +188,7 @@ h1{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    font-size: 35px;
+    font-size: 2.1875rem;
 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -556,11 +556,11 @@ h1{
 
 .p3{
     h1{
-        font-size: 100px;
+        font-size: 6.25rem;
         margin: 0 auto;
     }
     .barrita{
-        height: 75px;
+        height: 4.6875rem;
         background-image: url(../img/senefa.png);
 
     }
@@ -569,8 +569,8 @@ h1{
 
 
 .cont2{
-    width: 900px;
-    top: 350px;
+    width: 56.25rem;
+    top: 21.875rem;
     text-align: center;
     font-size: 0;
     margin:0 auto;
@@ -578,17 +578,17 @@ h1{
 }
 
 .p3 h1{
-    top: 500px;
+    top: 31.25rem;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 .p3 li{
-        width: 100px;
-        height: 100px;
+        width: 6.25rem;
+        height: 6.25rem;
         background-size: 100%;
-        margin:50px;
-        top:150px;
+        margin:3.125rem;
+        top:9.375rem;
         display: inline-block;
         text-align: center;
 
@@ -657,7 +657,7 @@ h1{
     }
 
     h1{
-        font-size: 90px;
+        font-size: 5.625rem;
         color: white
         
     }
@@ -671,7 +671,7 @@ h1{
         transform: scale(100%);
         transform-origin: 50%;
         top: 6vw;
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     .p2{
@@ -682,15 +682,15 @@ h1{
         display: inline-block;
         width: 30vw;
         height: 30vw;
-        margin: 30px;
-        line-height: 200px;
+        margin: 1.875rem;
+        line-height: 12.5rem;
         font-size: 1.5rem;
 
     
     }
 
     .p3 h1{
-        font-size: 80px;
+        font-size: 5rem;
     }
 
     .p3{
@@ -708,7 +708,7 @@ h1{
     .p3 li{
         width: 20vw;
         height: 20vw;
-        margin: 20px;
+        margin: 1.25rem;
         }
 
 
